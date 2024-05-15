@@ -1,0 +1,83 @@
+/* Not responsive to all devices yet */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(Assets/full-shot-woman-yoga-mat.jpg);
+    background-size: cover;
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+header { 
+    
+    margin-top: 45px;
+    
+}
+
+
+
+.nav-list { 
+    display: flex;
+    gap: 49px;
+    justify-content: flex-end;
+    padding-right: 170px;
+    list-style: none;
+    font-family: "League Spartan", sans-serif;
+    font-size: 17.3px;
+    font-style: bold;
+    color: white;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.main-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    color: white;
+    max-width: 430px;
+    letter-spacing: 1.3px;
+    line-height: 1em;
+   
+    
+}
+
+.content {
+    position: relative;
+    top: 190px;
+    left: 19rem;
+
+}
+
+button { 
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 50px;
+    font-size: 21.1px;
+    background-color: #53825D;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+    
+}
+
+.discount   {
+    margin-top: 15px;
+    font-size: 17.3px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
